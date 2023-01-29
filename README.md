@@ -99,3 +99,10 @@
 ### git secrets
 - [AWSやGCPのアカウント情報を誤ってgithubにpushしないようにするためのツール](https://zenn.dev/kkk777/articles/8f55db1e9678f2)
 - [AWSやGCPの出してはいけない情報についてのglobal設定](https://note.com/teitei_tk/n/ne1f2fa5a96bb)
+
+### その他
+- 普通にCRUDするだけならsqliteなどの方が良い
+- 理想的にはflask sqlalchemyなどを用いて、どんなDBにも接続できる形にするべき
+- トランザクションの管理などを明示的に実装する必要がある
+- 列に対するユニーク制約などがかけられるDBが便利
+- クラウドでやるならalloydbなどもありかも

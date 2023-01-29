@@ -1,0 +1,12 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    abc:
+      email: check_change@gmail.com
+      name: abc
+      password: $2b$12$ggQiw3bYX3/fopTgKGorieMpnNW16N.dRwQnUNC59dncDa.M2giwi
+preauthorized:
+  emails: []

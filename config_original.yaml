@@ -1,0 +1,24 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    abc:
+      email: check_change@gmail.com
+      name: abc
+      password: $2b$12$ggQiw3bYX3/fopTgKGorieMpnNW16N.dRwQnUNC59dncDa.M2giwi
+    def:
+      email: gashganriughnreipu@gmail.com
+      name: def
+      password: $2b$12$Ogzf03dyd9WFNm6XlKhcF.UhMD4sMzhdLLPi/tJi0cFID2jmQfG2W
+    jsmith:
+      email: jsmith@gmail.com
+      name: John Smith
+      password: $2b$12$aPAwA.Fo3SX/QgYYvMOmnOfu1v7ZJ703o8HOv9ELTt7x3W5a9S9Iu
+    rbriggs:
+      email: rbriggs@gmail.com
+      name: Rebecca Briggs
+      password: $2b$12$Q6pisXmBtiZF86QNd3zHCODwIOHZG00LMLWVFhmNqz4dPbDyn2IIe
+preauthorized:
+  emails: []
